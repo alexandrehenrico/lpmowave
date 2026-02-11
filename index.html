@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MoWave One - Produtividade e Finanças em um só lugar. Organize tarefas, hábitos e suas finanças com o plano Pro.">
+    <title>MoWave One | Foco, Constância e Finanças</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mowaveone.com/">
+    <meta property="og:title" content="MoWave One | Foco, Constância e Finanças">
+    <meta property="og:description"
+        content="Sua central de produtividade e finanças. Gamificação real para manter seu foco e disciplina.">
+    <meta property="og:image" content="assets/Open Graph MoWave One.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mowaveone.com/">
+    <meta property="twitter:title" content="MoWave One | Foco, Constância e Finanças">
+    <meta property="twitter:description"
+        content="Sua central de produtividade e finanças. Gamificação real para manter seu foco e disciplina.">
+    <meta property="twitter:image" content="assets/Open Graph MoWave One.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="MoWave One" class="logo-img">
+                <span class="logo-text">MoWave <span class="logo-accent">One</span></span>
+            </a>
+            <nav>
+                <a href="#features">O que é</a>
+                <a href="#how-it-works">Como funciona</a>
+                <a href="#pricing">Planos</a>
+                <a href="#faq">FAQ</a>
+                <a href="https://mowaveone.com/login">Login</a>
+            </nav>
+            <div class="header-actions">
+                <a href="https://checkout.stripe.com/c/pay/cs_live_a1Qte9h72QqVPhnPgt00a2BiVEIQwnEuq5nIRkDyAtK8rc75wOmV9Z76IV#fid1d2BpamRhQ2prcSc%2FJ0xrcWB3JyknZ2p3YWB3VnF8aWAnPydhYGNkcGlxJykndnBndmZ3bHVxbGprUGtsdHBga2B2dkBrZGdpYGEnP2NkaXZgKSdkdWxOYHwnPyd1blppbHNgWjA0Vl1HZHFGY0NrczA3c01Xcmg0ZDJcUXBxcnBnRmtUPD1qMDBTa0lIQUBwd19wUXVCa0p0bk9GS3FCN1QwaFNHVHdIa2BURnVcV2huVTZ8ZGo8d3dDPHFdNTVdNlBTcXZdbCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyY3PGYzM2QnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl"
+                    class="btn btn-primary">Assinar Pro <span style="margin-left:5px">→</span></a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="MoWave One" class="logo-img">
+                <span class="logo-text">MoWave <span class="logo-accent">One</span></span>
+            </a>
+            <button class="close-menu-btn" aria-label="Fechar menu">&times;</button>
+        </div>
+        <nav>
+            <a href="#features">O que é</a>
+            <a href="#how-it-works">Como funciona</a>
+            <a href="#pricing">Planos</a>
+            <a href="#faq">FAQ</a>
+            <a href="#" class="btn btn-secondary mobile-btn">Entrar</a>
+            <a href="#pricing" class="btn btn-primary mobile-btn">Assinar Pro</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video-bg">
+            <source src="assets/videohero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container-centered">
+            <div class="hero-text-content">
+                <h1>O MoWave One organiza <br><span class="highlight" id="typewriter-text"></span><span
+                        class="cursor">|</span></h1>
+                <p>Planeje sua semana, elimine a procrastinação e acompanhe sua evolução financeira. Tudo o que você
+                    precisa para crescer, simplificado em um só lugar.</p>
+
+                <div class="hero-cta-wrapper">
+                    <a href="#pricing" class="btn btn-hero-primary">
+                        Quero sair na frente <span class="arrow-icon">→</span>
+                    </a>
+                    <div class="hero-social-proof">
+                        <span class="proof-text">Junte-se a <strong>+1.000 usuários</strong> organizados</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-features-grid" id="features">
+                <!-- Card 1 -->
+                <div class="hero-feature-card">
+                    <div class="icon-box-glass">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                    </div>
+                    <p>Gerencie tarefas e hábitos com um sistema intuitivo</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="hero-feature-card">
+                    <div class="icon-box-glass">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <p>Controle financeiro completo integrado ao seu dia</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="hero-feature-card">
+                    <div class="icon-box-glass">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <p>Ferramentas de foco para evitar distrações</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="hero-feature-card">
+                    <div class="icon-box-glass">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                    </div>
+                    <p>Painel unificado com visão 360º da sua vida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview / Pillars Section (Dark Mode & Rounded Top) -->
+    <section id="overview" class="dark-section rounded-top-transition">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>O MoWave One reúne:</h2>
+                <p>em um único sistema simples e prático.</p>
+            </div>
+
+            <div class="pillars-grid">
+                <!-- TAREFAS -->
+                <div class="pillar-card">
+                    <div class="pillar-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                        </svg>
+                    </div>
+                    <span class="pillar-title">tarefas</span>
+                </div>
+
+                <!-- HÁBITOS -->
+                <div class="pillar-card">
+                    <div class="pillar-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                    </div>
+                    <span class="pillar-title">hábitos</span>
+                </div>
+
+                <!-- PROGRESSO -->
+                <div class="pillar-card">
+                    <div class="pillar-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <span class="pillar-title">progresso</span>
+                </div>
+            </div>
+
+            <div class="tags-container">
+                <span class="pill-tag">Agenda + Integração Google</span>
+                <span class="pill-tag">Modo Foco</span>
+                <span class="pill-tag">Anotações</span>
+                <span class="pill-tag">Financeiro</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard / Gamification Showcase -->
+    <section id="features-dashboard" class="dashboard-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Seu parceiro de estudo inteligente</h2>
+                <p>Gamificação real para manter seu foco e disciplina.</p>
+            </div>
+
+            <div class="dashboard-image-wrapper">
+                <img src="assets/Mokup.png" alt="MoWave One Dashboard" class="dashboard-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations Section -->
+    <section id="integrations" class="section-padding"
+        style="background-color: #0b0f19; background-image: url('https://framerusercontent.com/images/rt3hIAGM2E1e1YlaAI6zWsHtbk.png?width=1440&height=1716'); background-size: cover; background-position: center; background-repeat: no-repeat; color: white;">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 style="color: white;">Conectado ao seu mundo</h2>
+                <p style="color: rgba(255, 255, 255, 0.7);">Integre suas ferramentas favoritas e centralize sua
+                    produtividade.</p>
+            </div>
+
+            <div class="integrations-grid">
+                <div class="integration-card">
+                    <div class="integration-icon">
+                        <img src="assets/WhatsApp.svg.webp" alt="WhatsApp">
+                    </div>
+                    <h4>WhatsApp</h4>
+                </div>
+
+                <div class="integration-card">
+                    <div class="integration-icon">
+                        <img src="assets/Notion-logo.svg.png" alt="Notion">
+                    </div>
+                    <h4>Notion</h4>
+                </div>
+
+                <div class="integration-card">
+                    <div class="integration-icon">
+                        <img src="assets/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify">
+                    </div>
+                    <h4>Spotify</h4>
+                </div>
+
+                <div class="integration-card">
+                    <div class="integration-icon">
+                        <img src="assets/Google_Tasks_2021.svg.png" alt="Google Tasks">
+                    </div>
+                    <h4>Google Tasks</h4>
+                </div>
+
+                <div class="integration-card">
+                    <div class="integration-icon">
+                        <img src="assets/Google_Calendar_icon_(2020).svg.png" alt="Google Calendar">
+                    </div>
+                    <h4>Google Calendar</h4>
+                </div>
+
+                <div class="integration-card">
+                    <div class="integration-icon">
+                        <img src="assets/zapier.png" alt="Zapier">
+                    </div>
+                    <h4>Zapier</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section-padding bg-dark text-white">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="text-white">Escolha o seu plano</h2>
+                <p class="text-gray-300">Comece grátis ou desbloqueie o poder total com o Pro.</p>
+            </div>
+
+            <div class="pricing-wrapper">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Free</h3>
+                        <p>Para começar a se organizar</p>
+                    </div>
+                    <div class="price">R$ 0<span>/mês</span></div>
+
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Dashboard
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Agenda Semanal
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Gestão de Hábitos
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Modo Foco
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Diário Pessoal
+                            </li>
+                        </ul>
+
+                        <a href="https://mowaveone.com/login" class="btn-price-outline">Entrar Grátis</a>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                            </path>
+                        </svg>
+                        Popular
+                    </div>
+                    <div class="card-header">
+                        <h3>Pro</h3>
+                        <p>Para alta performance</p>
+                    </div>
+                    <div class="price">R$ 16,90<span>/mês</span></div>
+
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                <strong>Tudo do Free</strong>
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Módulo Financeiro
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Relatórios Avançados
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Exportação PDF
+                            </li>
+                            <li>
+                                <div class="check-icon-circle"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></div>
+                                Suporte Prioritário
+                            </li>
+                        </ul>
+
+                        <a href="https://checkout.stripe.com/c/pay/cs_live_a1Qte9h72QqVPhnPgt00a2BiVEIQwnEuq5nIRkDyAtK8rc75wOmV9Z76IV#fid1d2BpamRhQ2prcSc%2FJ0xrcWB3JyknZ2p3YWB3VnF8aWAnPydhYGNkcGlxJykndnBndmZ3bHVxbGprUGtsdHBga2B2dkBrZGdpYGEnP2NkaXZgKSdkdWxOYHwnPyd1blppbHNgWjA0Vl1HZHFGY0NrczA3c01Xcmg0ZDJcUXBxcnBnRmtUPD1qMDBTa0lIQUBwd19wUXVCa0p0bk9GS3FCN1QwaFNHVHdIa2BURnVcV2huVTZ8ZGo8d3dDPHFdNTVdNlBTcXZdbCcpJ2N3amhWYHdzYHcnP3F3cGApJ2dkZm5id2pwa2FGamlqdyc%2FJyY3PGYzM2QnKSdpZHxqcHFRfHVgJz8ndmxrYmlgWmxxYGgnKSdga2RnaWBVaWRmYG1qaWFgd3YnP3F3cGB4JSUl"
+                            class="btn-price-primary">Assinar Agora</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparison Table (Optional but requested) -> Keeping it simple inside cards mostly, but adds a small table below for clarity if needed. 
+                 User asked for "Tabela comparativa". I'll add a simple one below. 
+            -->
+            <div class="comparison-table-container">
+                <h3>Comparativo Rápido</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Recurso</th>
+                            <th>Gratuito</th>
+                            <th>Pro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tarefas e Hábitos</td>
+                            <td><span class="check">✓</span></td>
+                            <td><span class="check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td>Foco Diário</td>
+                            <td><span class="check">✓</span></td>
+                            <td><span class="check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td>Módulo Financeiro</td>
+                            <td><span class="dash">—</span></td>
+                            <td><span class="check">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td>Suporte</td>
+                            <td>Email</td>
+                            <td>Prioritário</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding">
+        <div class="container container-sm">
+            <div class="section-header text-center">
+                <h2>Perguntas Frequentes</h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Posso cancelar a qualquer momento?</span>
+                        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! O plano Pro não possui fidelidade. Você pode cancelar a assinatura quando quiser pelas
+                            configurações da sua conta e continuará tendo acesso até o fim do ciclo vigente.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como funciona o módulo financeiro?</span>
+                        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O módulo financeiro é integrado ao seu painel principal. Você pode lançar receitas, despesas
+                            fixas e variáveis, e visualizar gráficos de fluxo de caixa para entender melhor para onde
+                            seu dinheiro está indo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Preciso instalar algo no meu computador?</span>
+                        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não. O MoWave One é uma plataforma 100% online. Você pode acessar de qualquer navegador no
+                            seu computador, tablet ou celular, sem necessidade de downloads.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O plano gratuito tem limite de tarefas?</span>
+                        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Atualmente não limitamos o número de tarefas no plano gratuito. O principal diferencial do
+                            plano pago é o acesso ao módulo financeiro e relatórios avançados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Column -->
+                <div class="footer-col brand-col">
+                    <a href="#" class="logo">
+                        <img src="assets/logo.png" alt="MoWave One" class="logo-img">
+                        <span class="logo-text" style="color:#111827;">MoWave <span
+                                class="logo-accent">One</span></span>
+                    </a>
+                    <p class="tagline">Transformando o futuro da<br>sua produtividade e finanças.</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.tiktok.com/@mowaveone" target="_blank" class="social-btn"
+                            aria-label="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.65-1.58-1.09v8.32c0 .41.01.82-.07 1.23-.2 1.05-.69 2.05-1.46 2.84-1.31 1.34-3.3 2.04-5.18 1.55-1.92-.5-3.39-2.03-3.78-3.95-.39-1.93.3-3.98 1.74-5.35 1.44-1.37 3.59-1.63 5.3-1.04v4.21c-.81-.46-1.84-.44-2.61.16-.76.59-1 1.63-.58 2.5.42.87 1.48 1.25 2.38.99.9-.26 1.46-1.14 1.45-2.08V.02z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/mowaveone" target="_blank" class="social-btn"
+                            aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links & Legal Column -->
+                <div class="footer-col links-col">
+                    <h4>Links Úteis</h4>
+                    <nav class="footer-nav">
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Política de cancelamento e Reembolso</a>
+                    </nav>
+
+                    <div class="footer-block mt-4">
+                        <a href="mailto:mowaveone@gmail.com" class="footer-email">mowaveone@gmail.com</a>
+                        <p class="helper-text">Entre em contato para tirar suas dúvidas<br>ou enviar sugestões.</p>
+                    </div>
+                </div>
+
+                <!-- Contact / Info Column -->
+                <div class="footer-col contact-col">
+                    <div class="contact-block">
+                        <h4 class="phone-number">@mowaveone</h4>
+                        <p class="hours">Instagram & TikTok</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MoWave One</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
